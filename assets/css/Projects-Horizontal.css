@@ -12,6 +12,11 @@
   margin-bottom: 40px;
   padding-top: 40px;
   color: inherit;
+  transition: transform 0.25s;
+}
+
+.projects-horizontal h2:hover{
+  transform: scale(1.1);
 }
 
 @media (max-width:767px) {
@@ -35,6 +40,11 @@
 .projects-horizontal .item {
   padding-top: 60px;
   min-height: 160px;
+  transition: transform 0.25s;
+}
+
+.projects-horizontal .item:hover{
+  transform: scale(1.1);
 }
 
 @media (max-width:767px) {
@@ -50,6 +60,11 @@
   margin-top: 10px;
   margin-bottom: 15px;
   color: inherit;
+  transition: transform 0.25s;
+}
+
+.projects-horizontal .item .name:hover{
+  transform: scale(1.1);
 }
 
 @media (max-width:991px) {

@@ -15,6 +15,11 @@
   padding-top: 0;
   margin-top: 0;
   color: inherit;
+  transition: transform 0.25s;
+}
+
+.highlight-clean h2:hover {
+  transform: scale(1.2);
 }
 
 .highlight-clean .intro {
