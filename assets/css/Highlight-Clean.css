@@ -62,3 +62,11 @@
   color: #fff;
 }
 
+.highlight-clean img{
+  transition: transform 0.25s;
+}
+
+.highlight-clean img:hover{
+  transform: scale(1.1);
+}
+
